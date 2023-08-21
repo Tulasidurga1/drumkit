@@ -1,0 +1,68 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(165, 58, 58); 
+    text-align: center;
+}
+.title{
+   font-size: 5rem;
+   color: whitesmoke;
+    text-shadow: 3px 0 hsl(350, 66%, 55%);
+    font-family: "Arvo", cursive;
+}
+.Drum{
+  border:10px solid #404B69;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  color:hsl(350, 66%, 55%);
+  text-shadow: 3px 0 white;
+  border-radius: 15px;
+  text-align: center;
+  height: 150px;
+  width:150px;
+  margin:10px;
+}
+.kit{
+        margin: 10% auto;
+        display: grid;
+        justify-content: center ;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      
+}
+.w {
+    background-image: url("drumkit/crash.png");
+    }
+    
+    .a {
+      background-image: url("drumkit/kick.png");
+    
+    }
+    
+    .s {
+      background-image: url("drumkit/snare.png")
+    
+    }
+    
+    .d {
+      background-image: url("drumkit/tom1.png");
+    
+    }
+    
+    .j {
+    background-image: url("drumkit/tom2.png");
+    }
+    
+    .k {
+      background-image: url("drumkit/tom3.png");
+    
+    }
+    
+    .i {
+      background-image: url("drumkit/tom4.png");
+    
+    }
+    
